@@ -73,7 +73,7 @@ glimpse(df)
 
 This dataset uses **Year + Day-of-Year (DOY)**. Month must be derived from a calendar date.
 
-```{r derive_time, echo=TRUE, eval=FALSE}
+```{r derive_time, echo=TRUE, eval=T}
 df <- df %>%
   mutate(
     # TODO: create a Date column from year_local and doy
